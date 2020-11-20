@@ -7,10 +7,11 @@ const urlsToCache = [
   "/",
   "/db.js",
   "/index.js",
-  "/manifest.json",
+  "/manifest.webmanifest",
   "/styles.css",
   "/icons/icon-192x192.png",
-  "/icons/icon-512x512.png"
+  "/icons/icon-512x512.png",
+  "https://cdn.jsdelivr.net/npm/chart.js@2.8.0"
 ];
 
 // This code as you might imagine fires of when the user has chosen to install the web app on their machine as a standalone PWA. You won't need to modify this code. Keep it exactly as-is.
